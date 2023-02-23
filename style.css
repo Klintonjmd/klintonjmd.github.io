@@ -1,7 +1,29 @@
 .header,
-.footer {
+.footer,
+.hero {
   background-color: #1f2937;
   color: #e5e7eb;
   font-size: 18px;
   font: Roboto;
+}
+
+.header,
+.hero,
+.personal-info,
+.cta-area,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cards-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
