@@ -1,10 +1,14 @@
+html,
+body {
+  font-family: "Roboto", Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
 .header,
 .footer,
 .hero {
   background-color: #1f2937;
-  color: #e5e7eb;
-  font-size: 18px;
-  font: Roboto;
 }
 
 .header,
@@ -21,9 +25,15 @@
   display: flex;
   justify-content: space-evenly;
 }
-
-.cards-header {
+.cta-area,
+.personal-info {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.cta-box {
+  background-color: #3881f6;
+}
+
+.footer-text {
 }
