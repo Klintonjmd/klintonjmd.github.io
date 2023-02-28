@@ -61,3 +61,23 @@ svg {
   max-width: 30px;
   max-height: 30px;
 }
+
+.hero-header {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.hero-subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+img {
+  max-height: 350px;
+  max-width: 250px;
+}
+
+button {
+  background-color: #3881f6;
+}
