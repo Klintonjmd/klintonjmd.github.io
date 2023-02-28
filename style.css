@@ -1,8 +1,9 @@
-html,
-body {
+* {
   font-family: "Roboto", Helvetica, sans-serif;
   margin: 0px;
   padding: 0px;
+  gap: 0px;
+  border: 0px;
 }
 
 .header,
@@ -35,5 +36,28 @@ body {
   background-color: #3881f6;
 }
 
-.footer-text {
+.title {
+  color: #f9faf8;
+  font-size: 24px;
+  padding: 0.5rem;
+  font-weight: 600;
+}
+
+.nav-links {
+  display: flex;
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: 100;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  padding: 0.5rem;
+}
+
+svg {
+  max-width: 30px;
+  max-height: 30px;
 }
