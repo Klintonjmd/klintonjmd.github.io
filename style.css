@@ -73,11 +73,25 @@ svg {
   color: #e5e7eb;
 }
 
+.hero-body {
+  max-width: 60vw;
+  max-height: 30vh;
+}
+
 img {
-  max-height: 350px;
-  max-width: 250px;
+  max-height: 30vw;
+  max-width: 30vh;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 button {
   background-color: #3881f6;
+  width: 6rem;
+  height: 3.5rem;
+  border-radius: 0.75rem;
+  margin-top: 0.5rem;
+  color: #e5e7eb;
+  font-size: 18px;
+  cursor: inherit;
 }
