@@ -34,6 +34,7 @@
 }
 .cta-box {
   background-color: #3881f6;
+  width: 80vw;
 }
 
 .title {
@@ -62,6 +63,10 @@ svg {
   max-height: 30px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .hero-header {
   font-size: 48px;
   font-weight: bolder;
@@ -78,10 +83,11 @@ svg {
   max-height: 30vh;
 }
 
-img {
+.hero-image {
   max-height: 30vw;
   max-width: 30vh;
   border-radius: 1rem;
+  margin-right: 30%;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -94,6 +100,7 @@ button {
   color: #e5e7eb;
   font-size: 18px;
   cursor: inherit;
+  font-weight: bold;
 }
 
 .card-header {
@@ -102,4 +109,38 @@ button {
   color: #1f2937;
   text-align: center;
   padding: 2rem;
+}
+
+.cta-box {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta-header {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.cta-body {
+  color: #f9faf8;
+  font-size: 18px;
+}
+
+.cta-button {
+  opacity: transparent;
+  border: 2px solid #f9faf8;
+  border-radius: 5px;
+  color: #f9faf8;
+  padding: 8px;
+  font-weight: bolder;
+}
+
+.cta-left {
+  width: 70%;
 }
