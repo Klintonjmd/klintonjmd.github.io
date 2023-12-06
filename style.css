@@ -83,15 +83,20 @@ a {
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
+  margin-bottom: 10px;
+  margin: 0.5rem;
 }
 
 .hero-subtext {
   font-size: 18px;
   color: #e5e7eb;
+  margin-bottom: 10px;
+  margin: 0.5rem;
 }
 
 .hero-body {
   max-width: 60vw;
+  margin: 0.5rem;
 }
 
 .hero-image {
@@ -99,6 +104,7 @@ a {
   max-width: 30vh;
   border-radius: 1rem;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-right: 30px;
 }
 
 button {
@@ -106,7 +112,7 @@ button {
   width: 6rem;
   height: 3.5rem;
   border-radius: 0.75rem;
-  margin-top: 0.5rem;
+  margin: 0.5rem;
   color: #e5e7eb;
   font-size: 18px;
   cursor: inherit;
